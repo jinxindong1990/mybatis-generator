@@ -52,6 +52,8 @@
                delimitAllColumns="true" delimitIdentifiers="true">
             <!-- 数据库表主键 -->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+            <!-- 略去前缀CCar，配置如下-->
+            <domainObjectRenamingRule searchString="^C" replaceString="" />
             <!-- <ignoreColumn column="create_time"></ignoreColumn>-->
             <!-- <ignoreColumn column="update_time"></ignoreColumn>-->
         </table>
