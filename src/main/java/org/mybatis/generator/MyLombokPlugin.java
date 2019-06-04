@@ -31,8 +31,8 @@ public class MyLombokPlugin extends PluginAdapter {
         topLevelClass.addImportedType("lombok.Builder");
         topLevelClass.addImportedType("lombok.NoArgsConstructor");
         topLevelClass.addImportedType("lombok.AllArgsConstructor");
-        topLevelClass.addImportedType("lombok.ToString;");
-        //topLevelClass.addImportedType("lombok.EqualsAndHashCode;");
+        topLevelClass.addImportedType("lombok.ToString");
+        //topLevelClass.addImportedType("lombok.EqualsAndHashCode");
 
         //添加domain的注解
         topLevelClass.addAnnotation("@Data");
